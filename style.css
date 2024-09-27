@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'CyberTrunk';
+    src: url('font/CyberTrunk.otf') format('otf'),
+         url('font/CyberTrunk.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CyberTroops';
+    src: url('font/Cybertroops.ttf') format('ttf'),
+         url('font/Cybertroops.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#backgroud{
+    background-color: black;
+}
+
+#pfp{
+    margin-top: 30px;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+#pfp:hover {
+    transform: scale(1.2); 
+    box-shadow: 0 0 20px 10px rgba(0, 191, 255, 0.8); 
+}
+
+#link{
+    color: cornflowerblue;
+    background-color: transparent;
+}
+
+#div{
+    align-items: center;
+    text-align: center;
+}
+
+#divtext{
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+#title{
+    font-family: 'CyberTrunk';
+    color: white; 
+    animation: colorChange 3s infinite; 
+}
+
+@keyframes colorChange {
+    0% {
+        color: white;
+    }
+    50% {
+        color: cornflowerblue;
+    }
+    100% {
+        color: white;
+    }
+}
+
+#text{
+    font-size: 30px;
+    font-family: 'Cybertroops';
+    color: white;
+    margin-top: 30px;
+}
+
+
+#logo{
+    margin-top: 30px;
+    width: 300px;
+}
