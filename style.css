@@ -27,7 +27,7 @@
 
 #pfp:hover {
     transform: scale(1.2); 
-    box-shadow: 0 0 20px 10px rgba(0, 191, 255, 0.8); 
+    box-shadow: 0 0 10px 10px rgb(245, 93, 118); 
 }
 
 #link{
@@ -57,7 +57,7 @@
         color: white;
     }
     50% {
-        color: cornflowerblue;
+        color: rgb(245, 93, 118);
     }
     100% {
         color: white;
@@ -75,4 +75,8 @@
 #logo{
     margin-top: 30px;
     width: 300px;
+}
+
+#social{
+    width: 50px; 
 }
